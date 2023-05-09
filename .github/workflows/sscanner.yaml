@@ -14,4 +14,5 @@ jobs:
           path: ./
           base: ${{ github.head_ref }}
           head: HEAD
-          extra_args: --debug --only-verified 
+          extra_args: --debug --only-verified --max_depth 100
+          
