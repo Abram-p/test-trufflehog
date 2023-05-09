@@ -1,6 +1,11 @@
 # test-trufflehog
 Just testing some trufflehog stuff
 
+The flow control for this is based on the Pull Request being opened, as seen in the .github/workflows/sscanner.yaml file. 
+This means that the secret scanner runs the second a pull request is opened. Also were trying to drive this secret scanning and security closer to the 
+developers which means we will also use pre-commit to catch secrets before they are committed to the repo in any way so that we dont have to purge them from 
+any branches or history or anything like that. Follow the steps below to get this stuff set up.
+
 Setup
 Install trufflehog
 # MacOS users
