@@ -1,1 +1,1 @@
-test_secret = "pAznMW3DsrnVJ5TDWwBVCA"
+test_secret = "pAznMW3DsrnVJ5TDWwBVCA" # pragma: allowlist secret
